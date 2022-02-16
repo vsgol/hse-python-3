@@ -3,8 +3,12 @@ import ast
 import inspect
 import networkx
 
-import fibonacci
-from ast_visitor import AstVisitor
+from .fibonacci import *
+from .ast_visitor import AstVisitor
+
+
+def create_fib_ast_tree(target_file='../artifacts/ast.png'):
+    create_ast_tree(fibonacci, target_file=target_file)
 
 
 def create_ast_tree(function, target_file='../artifacts/ast.png'):
@@ -17,4 +21,4 @@ def create_ast_tree(function, target_file='../artifacts/ast.png'):
 
 
 if __name__ == "__main__":
-    create_ast_tree(fibonacci)
+    create_fib_ast_tree()
