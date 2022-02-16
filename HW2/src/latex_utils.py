@@ -69,7 +69,7 @@ def latex_image(path: str, scale: float = 1) -> str:
 if __name__ == "__main__":
     sample = [
         [1, 2, 3],
-        ['a', 'b', 'c'],
+        ['a', 'b', 'Тест русского языка'],
         ['$4\\times 3$', '$\Rightarrow $', '12']
     ]
 
