@@ -1,0 +1,4 @@
+Test get the first 100000 Fibonacci numbers 10 times
+Sync time: 3.7035868167877197 sec
+Threads time: 18.339728116989136 sec
+Process time: 2.6282079219818115 sec
